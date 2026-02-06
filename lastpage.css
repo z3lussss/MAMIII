@@ -21,3 +21,29 @@ body {
   border-radius: 12px;
   border: 2px solid #B8E2F2;
 }
+.container {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+.container img, .container video, .container audio {
+  width: 240px;
+  height: 240px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 0 0 0;
+}
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.image-container img:hover {
+  transform: scale(1.05);
+}
